@@ -4,7 +4,7 @@ print('Sou seu computador... Pensei um número entre 0 e 10.')
 print('Tente acertar qual foi? ')
 acertou = False
 palpite = 0
-while not acertou:
+while acertou == False:
     jogador = int(input('Qual o seu palpite: '))
     palpite += 1
     if jogador == computador:
